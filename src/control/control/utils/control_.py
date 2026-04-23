@@ -323,7 +323,7 @@ def wait_command(node, expected_command="GO", topic="/mission", timeout=60.0, ho
     return False
 
 
-def get_formation_rotation_target(node, drone_id, angle_deg=-360.0, inter_drone_distance=3.0):
+def get_formation_rotation_target(node, drone_id, angle_deg=90.0, inter_drone_distance=3.0):
     """
     Compute rotated target for a drone in 3-drone inline formation using drone 1 as pivot.
 
@@ -374,9 +374,9 @@ def get_formation_rotation_target(node, drone_id, angle_deg=-360.0, inter_drone_
     z_target = node.current_pose.pose.position.z
 
     node.get_logger().info(
-        "[ROTATE_LEFT_90] pivot=(%.2f, %.2f), spacing=%.2f, drone=%d, "
+        "[ROTATE] angle=%.1f deg, pivot=(%.2f, %.2f), spacing=%.2f, drone=%d, "
         "offset_before=(%.2f, %.2f), offset_after=(%.2f, %.2f)" % (
-            pivot[0], pivot[1], inter_drone_distance, drone_id,
+            angle_deg, pivot[0], pivot[1], inter_drone_distance, drone_id,
             rel_vec[0], rel_vec[1], rotated_rel[0], rotated_rel[1]
         )
     )
@@ -384,9 +384,9 @@ def get_formation_rotation_target(node, drone_id, angle_deg=-360.0, inter_drone_
     return float(rotated_xy[0]), float(rotated_xy[1]), float(z_target)
 
 
-def left_matrix_rotate(node, drone_id, tolerance=0.5, timeout=30.0, inter_drone_distance=3.0):
+def left_matrix_rotate(node, drone_id, angle_deg=90.0, tolerance=0.5, timeout=30.0, inter_drone_distance=3.0):
     """
-    Rotate 3-drone formation 90 degrees to the left around drone 1 pivot axis.
+    Rotate 3-drone formation by angle_deg around drone 1 pivot axis.
 
     Drone indexing convention:
       - drone 1 : pivot (stays in place in XY)
@@ -396,7 +396,7 @@ def left_matrix_rotate(node, drone_id, tolerance=0.5, timeout=30.0, inter_drone_
     target = get_formation_rotation_target(
         node=node,
         drone_id=drone_id,
-        angle_deg=90.0,
+        angle_deg=angle_deg,
         inter_drone_distance=inter_drone_distance
     )
     if target is None:
@@ -404,7 +404,7 @@ def left_matrix_rotate(node, drone_id, tolerance=0.5, timeout=30.0, inter_drone_
 
     tx, ty, tz = target
     node.get_logger().info(
-        f"[ROTATE_LEFT_90] Drone {drone_id} target -> x: {tx:.2f}, y: {ty:.2f}, z: {tz:.2f}"
+        f"[ROTATE] angle={angle_deg:.1f} deg, Drone {drone_id} target -> x: {tx:.2f}, y: {ty:.2f}, z: {tz:.2f}"
     )
 
     return move_local(node, tx, ty, tz, tolerance=tolerance, timeout=timeout)

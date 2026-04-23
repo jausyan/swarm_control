@@ -97,7 +97,7 @@ def main():
         return
     
     hold_position(node, 5.0)
-    left_matrix_rotate(node, drone_id=2, tolerance=0.3, timeout=20.0, inter_drone_distance=3.0)
+    left_matrix_rotate(node, drone_id=2, angle_deg=120.0, tolerance=0.3, timeout=20.0, inter_drone_distance=3.0)
     hold_position(node, 2.0)
     
     node.get_logger().info("LANDING")
