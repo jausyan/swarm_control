@@ -1,0 +1,4 @@
+[console_scripts]
+control1 = control.control1:main
+control2 = control.control2:main
+control3 = control.control3:main

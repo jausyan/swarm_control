@@ -1,0 +1,31 @@
+[1.774s] Invoking command in '/home/el-system/swarm/src/control': PYTHONPATH=/home/el-system/swarm/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/el-system/swarm/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/el-system/swarm/build/control/build install --record /home/el-system/swarm/build/control/install.log --single-version-externally-managed install_data
+[2.187s] running egg_info
+[2.213s] writing ../../build/control/control.egg-info/PKG-INFO
+[2.215s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[2.215s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[2.216s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[2.216s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[2.273s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[2.276s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[2.276s] running build
+[2.276s] running build_py
+[2.277s] copying control/__init__.py -> /home/el-system/swarm/build/control/build/lib/control
+[2.277s] copying control/control1.py -> /home/el-system/swarm/build/control/build/lib/control
+[2.277s] copying control/control3.py -> /home/el-system/swarm/build/control/build/lib/control
+[2.277s] copying control/control2.py -> /home/el-system/swarm/build/control/build/lib/control
+[2.278s] copying control/utils/__init__.py -> /home/el-system/swarm/build/control/build/lib/control/utils
+[2.278s] copying control/utils/control_.py -> /home/el-system/swarm/build/control/build/lib/control/utils
+[2.279s] running install
+[2.285s] running install_lib
+[2.315s] running install_data
+[2.315s] copying resource/control -> /home/el-system/swarm/install/control/share/ament_index/resource_index/packages
+[2.315s] copying package.xml -> /home/el-system/swarm/install/control/share/control
+[2.316s] running install_egg_info
+[2.345s] removing '/home/el-system/swarm/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.345s] Copying ../../build/control/control.egg-info to /home/el-system/swarm/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[2.347s] running install_scripts
+[2.430s] Installing control1 script to /home/el-system/swarm/install/control/lib/control
+[2.431s] Installing control2 script to /home/el-system/swarm/install/control/lib/control
+[2.431s] Installing control3 script to /home/el-system/swarm/install/control/lib/control
+[2.432s] writing list of installed files to '/home/el-system/swarm/build/control/install.log'
+[2.478s] Invoked command in '/home/el-system/swarm/src/control' returned '0': PYTHONPATH=/home/el-system/swarm/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/el-system/swarm/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/el-system/swarm/build/control/build install --record /home/el-system/swarm/build/control/install.log --single-version-externally-managed install_data

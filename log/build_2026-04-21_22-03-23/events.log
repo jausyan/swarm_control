@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000658] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.000988] (control) JobStarted: {'identifier': 'control'}
+[0.099582] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.300346] (-) TimerEvent: {}
+[0.400828] (-) TimerEvent: {}
+[0.501493] (-) TimerEvent: {}
+[0.602106] (-) TimerEvent: {}
+[0.702685] (-) TimerEvent: {}
+[0.803513] (-) TimerEvent: {}
+[0.904028] (-) TimerEvent: {}
+[1.004605] (-) TimerEvent: {}
+[1.105357] (-) TimerEvent: {}
+[1.205887] (-) TimerEvent: {}
+[1.300568] (control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/home/el-system/swarm/build/control/build', 'install', '--record', '/home/el-system/swarm/build/control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/el-system/swarm/src/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'el-system', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/el-system/ros2_ws/install/mid360_simulation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/el-system', 'OLDPWD': '/home/el-system', 'DESKTOP_SESSION': 'ubuntu-xorg', 'NVM_BIN': '/home/el-system/.nvm/versions/node/v22.19.0/bin', 'NVM_INC': '/home/el-system/.nvm/versions/node/v22.19.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '1630', 'SYSTEMD_EXEC_PID': '2046', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13681', 'NVM_DIR': '/home/el-system/.nvm', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/el-system/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'el-system', 'JOURNAL_STREAM': '8:8009', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'el-system', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/el-system/ardupilot_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/el-system/.nvm/versions/node/v22.19.0/bin:/home/el-system/ardupilot/Tools/autotest:/usr/lib/ccache:/home/el-system/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/el-system/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/el-system/flutter/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/el-tech:@/tmp/.ICE-unix/1828,unix/el-tech:/tmp/.ICE-unix/1828', 'INVOCATION_ID': '03052650e52345268f3f5770809bc4f0', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'RW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/el-system/ros2_ws/install/mid360_simulation:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:932623a4-5061-44b1-af2e-98c02ddafbba', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/el-system/swarm/build/control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/el-system/swarm/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/el-system/swarm/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/el-system/ros2_ws/install/mid360_simulation'}, 'shell': False}
+[1.307455] (-) TimerEvent: {}
+[1.407867] (-) TimerEvent: {}
+[1.508341] (-) TimerEvent: {}
+[1.608707] (-) TimerEvent: {}
+[1.709078] (-) TimerEvent: {}
+[1.743360] (control) StdoutLine: {'line': b'running egg_info\n'}
+[1.769457] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[1.770933] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[1.771350] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[1.771960] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[1.772350] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[1.809223] (-) TimerEvent: {}
+[1.834851] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[1.837026] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[1.837408] (control) StdoutLine: {'line': b'running build\n'}
+[1.837587] (control) StdoutLine: {'line': b'running build_py\n'}
+[1.837797] (control) StdoutLine: {'line': b'copying control/__init__.py -> /home/el-system/swarm/build/control/build/lib/control\n'}
+[1.838060] (control) StdoutLine: {'line': b'copying control/control1.py -> /home/el-system/swarm/build/control/build/lib/control\n'}
+[1.838241] (control) StdoutLine: {'line': b'copying control/control3.py -> /home/el-system/swarm/build/control/build/lib/control\n'}
+[1.838467] (control) StdoutLine: {'line': b'copying control/control2.py -> /home/el-system/swarm/build/control/build/lib/control\n'}
+[1.838769] (control) StdoutLine: {'line': b'creating /home/el-system/swarm/build/control/build/lib/control/utils\n'}
+[1.838977] (control) StdoutLine: {'line': b'copying control/utils/__init__.py -> /home/el-system/swarm/build/control/build/lib/control/utils\n'}
+[1.839173] (control) StdoutLine: {'line': b'copying control/utils/control_.py -> /home/el-system/swarm/build/control/build/lib/control/utils\n'}
+[1.839779] (control) StdoutLine: {'line': b'running install\n'}
+[1.846331] (control) StdoutLine: {'line': b'running install_lib\n'}
+[1.873269] (control) StdoutLine: {'line': b'copying /home/el-system/swarm/build/control/build/lib/control/control1.py -> /home/el-system/swarm/install/control/lib/python3.10/site-packages/control\n'}
+[1.873690] (control) StdoutLine: {'line': b'copying /home/el-system/swarm/build/control/build/lib/control/control3.py -> /home/el-system/swarm/install/control/lib/python3.10/site-packages/control\n'}
+[1.873936] (control) StdoutLine: {'line': b'creating /home/el-system/swarm/install/control/lib/python3.10/site-packages/control/utils\n'}
+[1.874166] (control) StdoutLine: {'line': b'copying /home/el-system/swarm/build/control/build/lib/control/utils/__init__.py -> /home/el-system/swarm/install/control/lib/python3.10/site-packages/control/utils\n'}
+[1.874354] (control) StdoutLine: {'line': b'copying /home/el-system/swarm/build/control/build/lib/control/utils/control_.py -> /home/el-system/swarm/install/control/lib/python3.10/site-packages/control/utils\n'}
+[1.874517] (control) StdoutLine: {'line': b'copying /home/el-system/swarm/build/control/build/lib/control/control2.py -> /home/el-system/swarm/install/control/lib/python3.10/site-packages/control\n'}
+[1.874959] (control) StdoutLine: {'line': b'byte-compiling /home/el-system/swarm/install/control/lib/python3.10/site-packages/control/control1.py to control1.cpython-310.pyc\n'}
+[1.876308] (control) StdoutLine: {'line': b'byte-compiling /home/el-system/swarm/install/control/lib/python3.10/site-packages/control/control3.py to control3.cpython-310.pyc\n'}
+[1.877357] (control) StdoutLine: {'line': b'byte-compiling /home/el-system/swarm/install/control/lib/python3.10/site-packages/control/utils/__init__.py to __init__.cpython-310.pyc\n'}
+[1.877624] (control) StdoutLine: {'line': b'byte-compiling /home/el-system/swarm/install/control/lib/python3.10/site-packages/control/utils/control_.py to control_.cpython-310.pyc\n'}
+[1.880576] (control) StdoutLine: {'line': b'byte-compiling /home/el-system/swarm/install/control/lib/python3.10/site-packages/control/control2.py to control2.cpython-310.pyc\n'}
+[1.881696] (control) StdoutLine: {'line': b'running install_data\n'}
+[1.882103] (control) StdoutLine: {'line': b'copying resource/control -> /home/el-system/swarm/install/control/share/ament_index/resource_index/packages\n'}
+[1.882459] (control) StdoutLine: {'line': b'copying package.xml -> /home/el-system/swarm/install/control/share/control\n'}
+[1.882687] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.909323] (-) TimerEvent: {}
+[1.921075] (control) StdoutLine: {'line': b"removing '/home/el-system/swarm/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.921646] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /home/el-system/swarm/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info\n'}
+[1.922685] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.977521] (control) StdoutLine: {'line': b'Installing control1 script to /home/el-system/swarm/install/control/lib/control\n'}
+[1.977919] (control) StdoutLine: {'line': b'Installing control2 script to /home/el-system/swarm/install/control/lib/control\n'}
+[1.978098] (control) StdoutLine: {'line': b'Installing control3 script to /home/el-system/swarm/install/control/lib/control\n'}
+[1.978552] (control) StdoutLine: {'line': b"writing list of installed files to '/home/el-system/swarm/build/control/install.log'\n"}
+[2.009470] (-) TimerEvent: {}
+[2.022204] (control) CommandEnded: {'returncode': 0}
+[2.046950] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[2.048422] (-) EventReactorShutdown: {}
