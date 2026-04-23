@@ -1,0 +1,4 @@
+# ignore push for /build /install /log
+/build
+/install
+/log
