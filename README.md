@@ -8,6 +8,9 @@ This How the calculation to rotates a 3-drone formation **90° to the left** usi
 - **Spacing:** `3` local pose units between drones
 - **Formation before rotation:** inline on X-axis from pivot
 
+![simulation on gazebo](img/pic1.png)
+**Figure 1** UAV Swarm Simulation in Gazebo Classic
+
 ## Rotation Matrix Used
 
 For left rotation by angle $\theta$ in 2D:
